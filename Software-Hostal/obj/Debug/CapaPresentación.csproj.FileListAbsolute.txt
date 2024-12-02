@@ -1,0 +1,17 @@
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\Software-Hostal.exe.config
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\Software-Hostal.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\Software-Hostal.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaLogica.dll
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\bin\Debug\CapaLogica.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\CapaPresentación.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormLogin.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.Properties.Resources.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\CapaPresentación.csproj.GenerateResource.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\CapaPresentación.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\CapaPres.314295FC.Up2Date
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.exe
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.pdb
