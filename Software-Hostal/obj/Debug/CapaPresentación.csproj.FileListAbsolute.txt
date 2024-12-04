@@ -15,3 +15,4 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\CapaPres.314295FC.Up2Date
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.exe
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormPrincipal.resources

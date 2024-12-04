@@ -92,11 +92,11 @@
             // 
             this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtuser.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuser.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtuser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
-            this.txtuser.Location = new System.Drawing.Point(299, 100);
+            this.txtuser.Location = new System.Drawing.Point(299, 97);
             this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(375, 21);
+            this.txtuser.Size = new System.Drawing.Size(375, 24);
             this.txtuser.TabIndex = 1;
             this.txtuser.Text = "USUARIO";
             this.txtuser.Enter += new System.EventHandler(this.txtuser_Enter);
