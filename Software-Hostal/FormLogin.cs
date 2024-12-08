@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using CapaLogica;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Software_Hostal
 {
@@ -94,6 +96,62 @@ namespace Software_Hostal
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if (txtuser.Text != "USUARIO")
+            {
+                if (txtpass.Text != "CONTRASEÑA")
+                {
+                    logUsuario user = new logUsuario();
+                    var validarLogin = user.LoginUser(txtuser.Text,txtpass.Text);
+                    if (validarLogin == true)
+                    {
+                        FormPrincipal form = new FormPrincipal();
+                        form.Show();
+                        form.FormClosed += Logout;
+                        this.Hide();
+                    }
+                    else 
+                    {
+                        msgError("Usuario incorrecto o contraseña incorrecta");
+                        txtpass.Text = "CONTRASEÑA";
+                        txtuser.Focus();
+                    }
+                }
+                else msgError("Por favor, ingrese su contraseña");
+            }
+            else msgError("Por favor, ingrese su usuario");
+        }
+        private void msgError(string msg)
+        {
+            lblErrorMessage.Text = "     " + msg;
+            lblErrorMessage.Visible = true;
+        }
+        private void Logout(object sender, FormClosedEventArgs e) 
+        {
+            txtpass.Text = "CONTRASEÑA";
+            txtpass.UseSystemPasswordChar = false;
+            txtuser.Text = "USUARIO";
+            lblErrorMessage.Visible = false;
+            this.Show();
+        }
+
+        private void txtuser_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnlogin_Click(this, EventArgs.Empty);
+            }
+        }
+
+        private void txtpass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnlogin_Click(this, EventArgs.Empty);
+            }
         }
     }
 }

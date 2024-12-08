@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using CapaEntidad;
 
 namespace Software_Hostal
 {
@@ -139,6 +140,58 @@ namespace Software_Hostal
         private void btnClientes_MouseLeave(object sender, EventArgs e)
         {
             OcultarSubMenuSiFuera();
+        }
+
+        //---------------------------------------------------------------------------------------
+        private void AbrirFormEnPanel(object formhija)
+        {
+            if (this.panelContenedor.Controls.Count > 0) 
+            {
+                this.panelContenedor.Controls.RemoveAt(0);
+            }
+                
+            Form fh = formhija as Form;
+            fh.TopLevel = false;    
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormCliente());
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("hh:mm:ss");
+            lblFecha.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void btnVehiculo_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormVehiculo());
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Estás seguro de cerrar sesión?", "WARNING" +
+                "",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            LoadUserData();
+        }
+        private void LoadUserData()
+        {
+            lblUsername.Text = entUsuario.FirstName + ", " + entUsuario.LastName;
+            lblPosition.Text = entUsuario.Position;
+            lblEmail.Text = entUsuario.Email;
         }
     }
 }

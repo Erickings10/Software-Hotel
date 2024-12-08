@@ -16,7 +16,7 @@ namespace Software_Hostal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrincipal());
+            Application.Run(new FormLogin());
         }
     }
 }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,52 +30,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\Program.cs",
-              "RelativeDocumentMoniker": "Software-Hostal\\Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\Program.cs",
-              "RelativeToolTip": "Software-Hostal\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:14:54.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Software-Hostal\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
-              "RelativeToolTip": "Software-Hostal\\FormPrincipal.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAcwIUAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:39:39.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Software-Hostal\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:25:39.983Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Software-Hostal\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormLogin.cs",
+              "RelativeToolTip": "Software-Hostal\\FormLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:19:42.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormLogin.cs",
               "RelativeDocumentMoniker": "Software-Hostal\\FormLogin.cs",
               "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Software-Hostal\\FormLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:24:19.364Z",
+              "WhenOpened": "2024-12-08T20:19:41.29Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Software-Hostal\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
+              "RelativeToolTip": "Software-Hostal\\FormPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:10:15.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Software-Hostal\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:22:02.873Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

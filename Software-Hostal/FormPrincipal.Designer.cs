@@ -28,13 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.panelBarraTitulo = new System.Windows.Forms.Panel();
+            this.lblFecha = new System.Windows.Forms.Label();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
+            this.lblHora = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.panelMenuVertical = new System.Windows.Forms.Panel();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.panelSubMenu = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnMetodoPago = new System.Windows.Forms.Button();
@@ -54,8 +58,13 @@
             this.btnVentas = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnClientes = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnInicio = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.horaFecha = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblPosition = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.panelBarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -63,13 +72,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             this.panelMenuVertical.SuspendLayout();
             this.panelSubMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBarraTitulo
             // 
             this.panelBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
+            this.panelBarraTitulo.Controls.Add(this.lblFecha);
             this.panelBarraTitulo.Controls.Add(this.btnRestaurar);
+            this.panelBarraTitulo.Controls.Add(this.lblHora);
             this.panelBarraTitulo.Controls.Add(this.btnCerrar);
             this.panelBarraTitulo.Controls.Add(this.btnMinimizar);
             this.panelBarraTitulo.Controls.Add(this.btnMaximizar);
@@ -79,6 +91,17 @@
             this.panelBarraTitulo.Size = new System.Drawing.Size(1300, 40);
             this.panelBarraTitulo.TabIndex = 0;
             this.panelBarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelBarraTitulo_MouseDown);
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lblFecha.Location = new System.Drawing.Point(153, 5);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(86, 31);
+            this.lblFecha.TabIndex = 3;
+            this.lblFecha.Text = "label2";
             // 
             // btnRestaurar
             // 
@@ -92,6 +115,17 @@
             this.btnRestaurar.TabIndex = 2;
             this.btnRestaurar.TabStop = false;
             this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lblHora.Location = new System.Drawing.Point(7, 6);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(86, 31);
+            this.lblHora.TabIndex = 2;
+            this.lblHora.Text = "label1";
             // 
             // btnCerrar
             // 
@@ -135,6 +169,11 @@
             // panelMenuVertical
             // 
             this.panelMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panelMenuVertical.Controls.Add(this.lblEmail);
+            this.panelMenuVertical.Controls.Add(this.lblUsername);
+            this.panelMenuVertical.Controls.Add(this.lblPosition);
+            this.panelMenuVertical.Controls.Add(this.pictureBox1);
+            this.panelMenuVertical.Controls.Add(this.btnCerrarSesion);
             this.panelMenuVertical.Controls.Add(this.panelSubMenu);
             this.panelMenuVertical.Controls.Add(this.panel6);
             this.panelMenuVertical.Controls.Add(this.btnReporte);
@@ -148,12 +187,32 @@
             this.panelMenuVertical.Controls.Add(this.btnVentas);
             this.panelMenuVertical.Controls.Add(this.panel1);
             this.panelMenuVertical.Controls.Add(this.btnClientes);
-            this.panelMenuVertical.Controls.Add(this.pictureBox1);
+            this.panelMenuVertical.Controls.Add(this.btnInicio);
             this.panelMenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuVertical.Location = new System.Drawing.Point(0, 40);
             this.panelMenuVertical.Name = "panelMenuVertical";
             this.panelMenuVertical.Size = new System.Drawing.Size(220, 610);
             this.panelMenuVertical.TabIndex = 1;
+            // 
+            // btnCerrarSesion
+            // 
+            this.btnCerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
+            this.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(122)))), ((int)(((byte)(248)))));
+            this.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Mongolian Baiti", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion.Image")));
+            this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 567);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(220, 40);
+            this.btnCerrarSesion.TabIndex = 12;
+            this.btnCerrarSesion.Text = "CERRAR SESIÓN";
+            this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrarSesion.UseVisualStyleBackColor = false;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // panelSubMenu
             // 
@@ -163,7 +222,7 @@
             this.panelSubMenu.Controls.Add(this.btnHabitacion);
             this.panelSubMenu.Controls.Add(this.panel8);
             this.panelSubMenu.Controls.Add(this.btnVehiculo);
-            this.panelSubMenu.Location = new System.Drawing.Point(53, 171);
+            this.panelSubMenu.Location = new System.Drawing.Point(53, 156);
             this.panelSubMenu.Name = "panelSubMenu";
             this.panelSubMenu.Size = new System.Drawing.Size(167, 136);
             this.panelSubMenu.TabIndex = 0;
@@ -256,12 +315,13 @@
             this.btnVehiculo.Text = "Vehiculo";
             this.btnVehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVehiculo.UseVisualStyleBackColor = false;
+            this.btnVehiculo.Click += new System.EventHandler(this.btnVehiculo_Click);
             this.btnVehiculo.MouseLeave += new System.EventHandler(this.btnVehiculo_MouseLeave);
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel6.Location = new System.Drawing.Point(4, 408);
+            this.panel6.Location = new System.Drawing.Point(4, 393);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(10, 40);
             this.panel6.TabIndex = 11;
@@ -277,7 +337,7 @@
             this.btnReporte.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReporte.Image = ((System.Drawing.Image)(resources.GetObject("btnReporte.Image")));
             this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporte.Location = new System.Drawing.Point(13, 408);
+            this.btnReporte.Location = new System.Drawing.Point(13, 393);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(207, 40);
             this.btnReporte.TabIndex = 10;
@@ -287,7 +347,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel5.Location = new System.Drawing.Point(4, 353);
+            this.panel5.Location = new System.Drawing.Point(4, 338);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(10, 40);
             this.panel5.TabIndex = 9;
@@ -303,7 +363,7 @@
             this.btnAlmacen.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnAlmacen.Image = ((System.Drawing.Image)(resources.GetObject("btnAlmacen.Image")));
             this.btnAlmacen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlmacen.Location = new System.Drawing.Point(13, 353);
+            this.btnAlmacen.Location = new System.Drawing.Point(13, 338);
             this.btnAlmacen.Name = "btnAlmacen";
             this.btnAlmacen.Size = new System.Drawing.Size(207, 40);
             this.btnAlmacen.TabIndex = 8;
@@ -313,7 +373,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel4.Location = new System.Drawing.Point(4, 298);
+            this.panel4.Location = new System.Drawing.Point(4, 283);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 40);
             this.panel4.TabIndex = 7;
@@ -329,7 +389,7 @@
             this.btnEntradaProd.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEntradaProd.Image = ((System.Drawing.Image)(resources.GetObject("btnEntradaProd.Image")));
             this.btnEntradaProd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEntradaProd.Location = new System.Drawing.Point(13, 298);
+            this.btnEntradaProd.Location = new System.Drawing.Point(13, 283);
             this.btnEntradaProd.Name = "btnEntradaProd";
             this.btnEntradaProd.Size = new System.Drawing.Size(207, 40);
             this.btnEntradaProd.TabIndex = 6;
@@ -339,7 +399,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel3.Location = new System.Drawing.Point(4, 243);
+            this.panel3.Location = new System.Drawing.Point(4, 228);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(10, 40);
             this.panel3.TabIndex = 5;
@@ -355,7 +415,7 @@
             this.btnProductos.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.Image")));
             this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductos.Location = new System.Drawing.Point(13, 243);
+            this.btnProductos.Location = new System.Drawing.Point(13, 228);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(207, 40);
             this.btnProductos.TabIndex = 4;
@@ -365,7 +425,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel2.Location = new System.Drawing.Point(4, 187);
+            this.panel2.Location = new System.Drawing.Point(4, 172);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(10, 40);
             this.panel2.TabIndex = 3;
@@ -381,7 +441,7 @@
             this.btnVentas.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnVentas.Image")));
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentas.Location = new System.Drawing.Point(13, 187);
+            this.btnVentas.Location = new System.Drawing.Point(13, 172);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(207, 40);
             this.btnVentas.TabIndex = 2;
@@ -391,7 +451,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(86)))), ((int)(((byte)(244)))));
-            this.panel1.Location = new System.Drawing.Point(4, 132);
+            this.panel1.Location = new System.Drawing.Point(4, 117);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(10, 40);
             this.panel1.TabIndex = 1;
@@ -407,25 +467,27 @@
             this.btnClientes.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(13, 132);
+            this.btnClientes.Location = new System.Drawing.Point(13, 117);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(207, 40);
             this.btnClientes.TabIndex = 0;
             this.btnClientes.Text = "CLIENTES";
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             this.btnClientes.MouseLeave += new System.EventHandler(this.btnClientes_MouseLeave);
             this.btnClientes.MouseHover += new System.EventHandler(this.btnClientes_MouseHover);
             // 
-            // pictureBox1
+            // btnInicio
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 115);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.btnInicio.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
+            this.btnInicio.Location = new System.Drawing.Point(0, 0);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(220, 115);
+            this.btnInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnInicio.TabIndex = 0;
+            this.btnInicio.TabStop = false;
+            this.btnInicio.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             // 
             // panelContenedor
             // 
@@ -436,6 +498,54 @@
             this.panelContenedor.Size = new System.Drawing.Size(1080, 610);
             this.panelContenedor.TabIndex = 2;
             this.panelContenedor.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelContenedor_MouseDown);
+            // 
+            // horaFecha
+            // 
+            this.horaFecha.Enabled = true;
+            this.horaFecha.Tick += new System.EventHandler(this.horaFecha_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 452);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(93, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblPosition
+            // 
+            this.lblPosition.AutoSize = true;
+            this.lblPosition.Font = new System.Drawing.Font("Mongolian Baiti", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPosition.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblPosition.Location = new System.Drawing.Point(94, 467);
+            this.lblPosition.Name = "lblPosition";
+            this.lblPosition.Size = new System.Drawing.Size(60, 16);
+            this.lblPosition.TabIndex = 14;
+            this.lblPosition.Text = "Posición";
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Mongolian Baiti", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblUsername.Location = new System.Drawing.Point(93, 505);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(58, 16);
+            this.lblUsername.TabIndex = 15;
+            this.lblUsername.Text = "Nombre";
+            // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Mongolian Baiti", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblEmail.Location = new System.Drawing.Point(10, 541);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(43, 16);
+            this.lblEmail.TabIndex = 16;
+            this.lblEmail.Text = "Email";
             // 
             // FormPrincipal
             // 
@@ -448,13 +558,17 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPrincipal";
             this.Text = "FormPrincipal";
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.panelBarraTitulo.ResumeLayout(false);
+            this.panelBarraTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             this.panelMenuVertical.ResumeLayout(false);
+            this.panelMenuVertical.PerformLayout();
             this.panelSubMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -469,7 +583,7 @@
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.PictureBox btnRestaurar;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox btnInicio;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Panel panel6;
@@ -489,5 +603,13 @@
         private System.Windows.Forms.Button btnHabitacion;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btnVehiculo;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.Timer horaFecha;
+        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblPosition;
     }
 }

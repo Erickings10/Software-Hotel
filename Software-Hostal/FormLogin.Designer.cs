@@ -40,6 +40,7 @@
             this.linkpass = new System.Windows.Forms.LinkLabel();
             this.btnminimizar = new System.Windows.Forms.PictureBox();
             this.btncerrar = new System.Windows.Forms.PictureBox();
+            this.lblErrorMessage = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
@@ -72,7 +73,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
-            this.label1.Location = new System.Drawing.Point(296, 107);
+            this.label1.Location = new System.Drawing.Point(296, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(378, 16);
             this.label1.TabIndex = 1;
@@ -82,7 +83,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
-            this.label2.Location = new System.Drawing.Point(296, 165);
+            this.label2.Location = new System.Drawing.Point(296, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(378, 16);
             this.label2.TabIndex = 2;
@@ -94,12 +95,13 @@
             this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtuser.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtuser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
-            this.txtuser.Location = new System.Drawing.Point(299, 97);
+            this.txtuser.Location = new System.Drawing.Point(299, 86);
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(375, 24);
             this.txtuser.TabIndex = 1;
             this.txtuser.Text = "USUARIO";
             this.txtuser.Enter += new System.EventHandler(this.txtuser_Enter);
+            this.txtuser.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtuser_KeyDown);
             this.txtuser.Leave += new System.EventHandler(this.txtuser_Leave);
             // 
             // txtpass
@@ -108,12 +110,13 @@
             this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtpass.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
-            this.txtpass.Location = new System.Drawing.Point(299, 158);
+            this.txtpass.Location = new System.Drawing.Point(299, 147);
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(375, 21);
             this.txtpass.TabIndex = 2;
             this.txtpass.Text = "CONTRASEÑA";
             this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
+            this.txtpass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtpass_KeyDown);
             this.txtpass.Leave += new System.EventHandler(this.txtpass_Leave);
             // 
             // label3
@@ -142,6 +145,7 @@
             this.btnlogin.TabIndex = 3;
             this.btnlogin.Text = "INGRESAR";
             this.btnlogin.UseVisualStyleBackColor = false;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // linkpass
             // 
@@ -179,12 +183,27 @@
             this.btncerrar.TabStop = false;
             this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
+            // lblErrorMessage
+            // 
+            this.lblErrorMessage.AutoSize = true;
+            this.lblErrorMessage.Font = new System.Drawing.Font("Mongolian Baiti", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(215)))), ((int)(((byte)(209)))));
+            this.lblErrorMessage.Image = ((System.Drawing.Image)(resources.GetObject("lblErrorMessage.Image")));
+            this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblErrorMessage.Location = new System.Drawing.Point(296, 184);
+            this.lblErrorMessage.Name = "lblErrorMessage";
+            this.lblErrorMessage.Size = new System.Drawing.Size(130, 18);
+            this.lblErrorMessage.TabIndex = 10;
+            this.lblErrorMessage.Text = "Mensaje de Error";
+            this.lblErrorMessage.Visible = false;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(780, 330);
+            this.Controls.Add(this.lblErrorMessage);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnminimizar);
             this.Controls.Add(this.linkpass);
@@ -223,6 +242,7 @@
         private System.Windows.Forms.PictureBox btnminimizar;
         private System.Windows.Forms.PictureBox btncerrar;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lblErrorMessage;
     }
 }
 

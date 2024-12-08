@@ -16,3 +16,5 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.exe
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software-Hostal.pdb
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormPrincipal.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormCliente.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormVehiculo.resources
