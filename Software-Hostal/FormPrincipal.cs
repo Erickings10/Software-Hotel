@@ -186,6 +186,16 @@ namespace Software_Hostal
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
             LoadUserData();
+            //Manejar permisos
+            if (entUsuario.Position == entPosiciones.Recepcionista) 
+            {
+                btnEntradaProd.Visible = false;
+                btnAlmacen.Visible = false;
+                btnReporte.Visible = false;
+                panel4.Visible = false;
+                panel5.Visible = false;
+                panel6.Visible = false;
+            }
         }
         private void LoadUserData()
         {

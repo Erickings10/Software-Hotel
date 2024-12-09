@@ -41,5 +41,16 @@ namespace CapaDatos
                 }
             }
         }
+        public void CualquierMetodo() 
+        {
+            if (entUsuario.Position == entPosiciones.Administrador) 
+            {
+                //code
+            }
+            if (entUsuario.Position == entPosiciones.Recepcionista) 
+            {
+                //code
+            }
+        }
     }
 }
