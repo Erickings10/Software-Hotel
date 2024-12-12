@@ -153,5 +153,11 @@ namespace Software_Hostal
                 btnlogin_Click(this, EventArgs.Empty);
             }
         }
+
+        private void linkpass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var recoverPassword = new FormRecuperarContraseña();
+            recoverPassword.ShowDialog();
+        }
     }
 }

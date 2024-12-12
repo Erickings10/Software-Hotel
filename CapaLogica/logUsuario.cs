@@ -16,17 +16,9 @@ namespace CapaLogica
             return userDao.Login(user, pass);
         }
 
-        public void CualquierMetodo()
+        public string recoverPassword(string userRequesting)
         {
-            //Seguridad y permisos
-            if (entUsuario.Position == entPosiciones.Administrador)
-            {
-                //code
-            }
-            if (entUsuario.Position == entPosiciones.Recepcionista)
-            {
-                //code
-            }
-        }
+            return userDao.recoverPassword(userRequesting);
+        }   
     }
 }

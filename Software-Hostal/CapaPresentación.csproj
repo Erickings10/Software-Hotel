@@ -64,6 +64,12 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecuperarContraseña.Designer.cs">
+      <DependentUpon>FormRecuperarContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecuperarContraseña.resx">
+      <DependentUpon>FormRecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVehiculo.resx">
       <DependentUpon>FormVehiculo.cs</DependentUpon>
