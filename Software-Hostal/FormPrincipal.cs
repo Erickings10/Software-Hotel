@@ -18,6 +18,7 @@ namespace Software_Hostal
         {
             InitializeComponent();
             btnRestaurar.Visible = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -177,10 +178,14 @@ namespace Software_Hostal
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Estás seguro de cerrar sesión?", "WARNING" +
-                "",
+            if (MessageBox.Show("¿Estás seguro de cerrar sesión?", "WARNING",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                FormLogin login = new FormLogin();
+                login.Show();
+
                 this.Close();
+            }
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
@@ -196,12 +201,24 @@ namespace Software_Hostal
                 panel5.Visible = false;
                 panel6.Visible = false;
             }
+            if (entUsuario.Position == entPosiciones.Administrador) 
+            {
+                pictureBox1.Visible = false;
+                btnAgregarUsuario.Visible = true;
+            }
         }
         private void LoadUserData()
         {
             lblUsername.Text = entUsuario.FirstName + ", " + entUsuario.LastName;
             lblPosition.Text = entUsuario.Position;
             lblEmail.Text = entUsuario.Email;
+        }
+
+        private void btnAgregarUsuario_Click(object sender, EventArgs e)
+        {
+            FormUsuarios formUsuarios = new FormUsuarios();
+            formUsuarios.Show();
+            this.Close();
         }
     }
 }

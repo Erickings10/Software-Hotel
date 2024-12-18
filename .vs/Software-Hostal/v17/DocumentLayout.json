@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|c:\\users\\usuario\\onedrive\\documentos\\aplicaciones forms\\proyectohostal\\software-hostal\\software-hostal\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0156B17-B191-4AD8-B34A-EA7CC784F478}|Software-Hostal\\CapaPresentaci\u00F3n.csproj|solutionrelative:software-hostal\\formusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormRecuperarContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "Software-Hostal\\FormRecuperarContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Software-Hostal\\FormRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FormUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormUsuarios.cs",
+              "RelativeDocumentMoniker": "Software-Hostal\\FormUsuarios.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormUsuarios.cs",
+              "RelativeToolTip": "Software-Hostal\\FormUsuarios.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T22:51:27.619Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-18T22:22:07.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Software-Hostal\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Software-Hostal\\FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormUsuarios.cs",
+              "RelativeDocumentMoniker": "Software-Hostal\\FormUsuarios.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Aplicaciones Forms\\ProyectoHostal\\Software-Hostal\\Software-Hostal\\FormUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Software-Hostal\\FormUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:22:02.873Z",
+              "WhenOpened": "2024-12-16T20:58:21.815Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

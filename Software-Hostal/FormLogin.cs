@@ -110,7 +110,7 @@ namespace Software_Hostal
                     {
                         FormPrincipal form = new FormPrincipal();
                         form.Show();
-                        form.FormClosed += Logout;
+                        //form.FormClosed += Logout;
                         this.Hide();
                     }
                     else 
