@@ -19,6 +19,7 @@ namespace Software_Hostal
             InitializeComponent();
             btnRestaurar.Visible = false;
             this.StartPosition = FormStartPosition.CenterScreen;
+            globoTextoAU.SetToolTip(btnAgregarUsuario,"Click Aquí, para agregar un nuevo usuario");
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]

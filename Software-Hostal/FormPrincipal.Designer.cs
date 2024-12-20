@@ -38,6 +38,7 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.panelMenuVertical = new System.Windows.Forms.Panel();
+            this.btnAgregarUsuario = new System.Windows.Forms.PictureBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.lblPosition = new System.Windows.Forms.Label();
@@ -65,17 +66,17 @@
             this.btnInicio = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.horaFecha = new System.Windows.Forms.Timer(this.components);
-            this.btnAgregarUsuario = new System.Windows.Forms.PictureBox();
+            this.globoTextoAU = new System.Windows.Forms.ToolTip(this.components);
             this.panelBarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             this.panelMenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAgregarUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelSubMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAgregarUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBarraTitulo
@@ -196,6 +197,18 @@
             this.panelMenuVertical.Name = "panelMenuVertical";
             this.panelMenuVertical.Size = new System.Drawing.Size(220, 610);
             this.panelMenuVertical.TabIndex = 1;
+            // 
+            // btnAgregarUsuario
+            // 
+            this.btnAgregarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarUsuario.Image")));
+            this.btnAgregarUsuario.Location = new System.Drawing.Point(0, 452);
+            this.btnAgregarUsuario.Name = "btnAgregarUsuario";
+            this.btnAgregarUsuario.Size = new System.Drawing.Size(93, 81);
+            this.btnAgregarUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnAgregarUsuario.TabIndex = 14;
+            this.btnAgregarUsuario.TabStop = false;
+            this.btnAgregarUsuario.Visible = false;
+            this.btnAgregarUsuario.Click += new System.EventHandler(this.btnAgregarUsuario_Click);
             // 
             // lblEmail
             // 
@@ -550,17 +563,12 @@
             this.horaFecha.Enabled = true;
             this.horaFecha.Tick += new System.EventHandler(this.horaFecha_Tick);
             // 
-            // btnAgregarUsuario
+            // globoTextoAU
             // 
-            this.btnAgregarUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarUsuario.Image")));
-            this.btnAgregarUsuario.Location = new System.Drawing.Point(0, 452);
-            this.btnAgregarUsuario.Name = "btnAgregarUsuario";
-            this.btnAgregarUsuario.Size = new System.Drawing.Size(93, 81);
-            this.btnAgregarUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnAgregarUsuario.TabIndex = 14;
-            this.btnAgregarUsuario.TabStop = false;
-            this.btnAgregarUsuario.Visible = false;
-            this.btnAgregarUsuario.Click += new System.EventHandler(this.btnAgregarUsuario_Click);
+            this.globoTextoAU.AutoPopDelay = 3000;
+            this.globoTextoAU.InitialDelay = 500;
+            this.globoTextoAU.IsBalloon = true;
+            this.globoTextoAU.ReshowDelay = 100;
             // 
             // FormPrincipal
             // 
@@ -582,10 +590,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             this.panelMenuVertical.ResumeLayout(false);
             this.panelMenuVertical.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAgregarUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelSubMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnInicio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAgregarUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -628,5 +636,6 @@
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.Label lblPosition;
         private System.Windows.Forms.PictureBox btnAgregarUsuario;
+        private System.Windows.Forms.ToolTip globoTextoAU;
     }
 }

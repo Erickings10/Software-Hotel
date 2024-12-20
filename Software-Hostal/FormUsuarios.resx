@@ -356,7 +356,7 @@
   <data name="btnAgregar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAHdElNRQfoDBAVDg7A/OjDAAAA
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAHdElNRQfoDBAVDg7A/OjDAAAA
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAp5JREFUWEe9mEuoTlEUx39eedSluJ53
         4JWBUrphYMCEDIgyIiV5RcjVvQzMGDAxoAzIhPIoJTMDJY8wMCEyIAMUCgMmHlHoX+urc1frnu/sfc7n
         X/92e5+11n9/Z6919t4f1MNwYAIw2Vr1/ztmANuAi8BD4Im16mu8xzt0AqOAzcBT4A/wN6DG9Vx2su8I
@@ -375,7 +375,7 @@
   <data name="btnModificar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAHdElNRQfoDBAVDh+qTMgxAAAA
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAHdElNRQfoDBAVDh+qTMgxAAAA
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAd1JREFUWEftl88qRVEUxn8mUiaSUiYo
         E49gYigjijA3QryBF2AixZMwIQNvgIFHIIzMhELfbe/bbt91/tyzz7k3db/6ut271zr9Wmvtfe6G/mgO
         uAU+gTNgNA7olWaAK+DX+Qs46hfQIvASwHggVahnmnKW1g0gtawnmgaugRtg1v0WA2mGWhoGFoBtYCfR
@@ -390,7 +390,7 @@
   <data name="btnEliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADXUAAA11AYrN9fYAAAAHdElNRQfoDBAVDi1im5mxAAAA
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADXQAAA10AViKFxIAAAAHdElNRQfoDBAVDi1im5mxAAAA
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAqNJREFUWEftmEnoTXEUxz/GsJDYSKYM
         UVZmssBGKENYKApZmJNxIZEhWSg2hgwlFiwkFpSFUrKS2CjjgrBQMs9j3zr39fsf5/3ffe/eZ+Vbn7q9
         e+455/7uued37oPa6gIsAK4Ar4CfwCfgDrAd6OcvaJb6AqeAj8DvgF/ATWCKv7Bs9bLV8AlEvACmegdl

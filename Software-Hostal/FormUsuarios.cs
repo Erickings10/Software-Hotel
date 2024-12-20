@@ -21,7 +21,7 @@ namespace Software_Hostal
             listarUsuarios();
             this.StartPosition = FormStartPosition.CenterScreen;
             txtID.Enabled = false;
-            dgvUsuarios.ReadOnly = false;
+            dgvUsuarios.ReadOnly = true;
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -146,14 +146,17 @@ namespace Software_Hostal
 
         private void dgvUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataGridViewRow fila = dgvUsuarios.Rows[e.RowIndex];
-            txtID.Text = fila.Cells[0].Value.ToString();
-            txtLogin.Text = fila.Cells[1].Value.ToString();
-            txtContraseña.Text = fila.Cells[2].Value.ToString();
-            txtNombre.Text = fila.Cells[3].Value.ToString();
-            txtApellido.Text = fila.Cells[4].Value.ToString();
-            txtPosicion.Text = fila.Cells[5].Value.ToString();
-            txtEmail.Text = fila.Cells[6].Value.ToString();
+            if (e.RowIndex >=0) 
+            {
+                DataGridViewRow fila = dgvUsuarios.Rows[e.RowIndex];
+                txtID.Text = fila.Cells[0].Value.ToString();
+                txtLogin.Text = fila.Cells[1].Value.ToString();
+                txtContraseña.Text = fila.Cells[2].Value.ToString();
+                txtNombre.Text = fila.Cells[3].Value.ToString();
+                txtApellido.Text = fila.Cells[4].Value.ToString();
+                txtPosicion.Text = fila.Cells[5].Value.ToString();
+                txtEmail.Text = fila.Cells[6].Value.ToString();
+            }
         }
     }
 }
