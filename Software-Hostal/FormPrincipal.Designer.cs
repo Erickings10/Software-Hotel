@@ -345,6 +345,7 @@
             this.btnHabitacion.Text = "Habitacion";
             this.btnHabitacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHabitacion.UseVisualStyleBackColor = false;
+            this.btnHabitacion.Click += new System.EventHandler(this.btnHabitacion_Click);
             this.btnHabitacion.MouseLeave += new System.EventHandler(this.btnHabitacion_MouseLeave);
             // 
             // panel8

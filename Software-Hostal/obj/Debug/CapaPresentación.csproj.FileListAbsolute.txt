@@ -20,3 +20,4 @@ C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormVehiculo.resources
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormRecuperarContraseña.resources
 C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormUsuarios.resources
+C:\Users\USUARIO\OneDrive\Documentos\Aplicaciones Forms\ProyectoHostal\Software-Hostal\Software-Hostal\obj\Debug\Software_Hostal.FormHabitacion.resources

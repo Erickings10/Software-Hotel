@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="entHabitaciones.cs" />
     <Compile Include="entPosiciones.cs" />
     <Compile Include="entUsers.cs" />
     <Compile Include="entUsuario.cs" />

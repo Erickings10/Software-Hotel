@@ -221,5 +221,10 @@ namespace Software_Hostal
             formUsuarios.Show();
             this.Close();
         }
+
+        private void btnHabitacion_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormHabitacion());
+        }
     }
 }
