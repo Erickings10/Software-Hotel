@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="logHabitaciones.cs" />
+    <Compile Include="logMetodoPago.cs" />
     <Compile Include="logUsers.cs" />
     <Compile Include="logUsuario.cs" />
     <Compile Include="logVehiculo.cs" />

@@ -226,5 +226,10 @@ namespace Software_Hostal
         {
             AbrirFormEnPanel(new FormHabitacion());
         }
+
+        private void btnMetodoPago_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormMetodoPago());
+        }
     }
 }

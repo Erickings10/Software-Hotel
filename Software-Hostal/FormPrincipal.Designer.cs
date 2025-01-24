@@ -316,6 +316,7 @@
             this.btnMetodoPago.Text = "Metodo Pago";
             this.btnMetodoPago.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMetodoPago.UseVisualStyleBackColor = false;
+            this.btnMetodoPago.Click += new System.EventHandler(this.btnMetodoPago_Click);
             this.btnMetodoPago.MouseLeave += new System.EventHandler(this.btnMetodoPago_MouseLeave);
             // 
             // panel9
